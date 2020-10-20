@@ -1,6 +1,7 @@
 <html>
 <?php
 session_start();
+$pageTitle = "Administration";
 ?>
     <?php 
       include_once 'head.php';

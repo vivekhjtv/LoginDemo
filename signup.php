@@ -1,5 +1,6 @@
 <?php
 session_start();
+$pageTitle = "Registration";
 ?>
 <html>
     <?php include_once 'head.php';?>    

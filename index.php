@@ -3,6 +3,7 @@ session_start();
 if (isset($_SESSION['id'])) {
     header('Location: profile.php');
 }
+$pageTitle = "Login";
 ?>
 <html>
     <?php include_once 'head.php';?>

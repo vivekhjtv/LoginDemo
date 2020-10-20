@@ -3,6 +3,7 @@ session_start();
 if (!isset($_SESSION['id'])) {
     header('Location: index.php');
 }
+$pageTitle = "Change Password";
 ?>
 <html>
     <?php include_once 'head.php';?>
